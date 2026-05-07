@@ -1,0 +1,40 @@
+# Env / secrets
+.env
+*.env.local
+
+# Build
+target/
+build/
+out/
+*.class
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.project
+.classpath
+.settings/
+.factorypath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Maven wrapper logs
+.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+logs/
+*.log
+
+# Test output
+.gradle/
+
+# Spring
+application-local.yml
+application-secrets.yml
